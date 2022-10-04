@@ -1,7 +1,7 @@
 #### ⚡ George Agriogiannis
 **`DevOps/SRE`**
 
-#
+---
 
 Open source enthousiast, Cloud Native advocate.
 Coming from a Linux background, getting into the cloud.
@@ -22,12 +22,13 @@ Coming from a Linux background, getting into the cloud.
 <img align="left" alt="Bash" width="30px" src="https://img.icons8.com/color/452/bash.png" />
 <img align="left" alt="Python" width="30px" src="https://img.icons8.com/fluency/452/python.png" />
 <img align="left" alt="Console" width="30px" src="https://img.icons8.com/color/452/console.png" />
+<br />
 
-# 
+#
 
 ![Gagrio's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gagrio&show_icons=true&theme=radical)
 
-#
+---
 
 <details><summary>More!</summary>
 <p>
