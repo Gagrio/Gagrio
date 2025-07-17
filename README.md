@@ -17,7 +17,7 @@ Coming from a Linux background, getting into the cloud.
 
 #
 
-:rocket: Tools you might come across in this repo: 
+:rocket: Tools you might come across in this profile: 
 
 <img align="left" alt="Terraform" width="30px" src="https://img.icons8.com/fluency/344/terraform.png" />
 <img align="left" alt="Kubernetes" width="30px" src="https://img.icons8.com/color/344/kubernetes.png" />
@@ -31,6 +31,7 @@ Coming from a Linux background, getting into the cloud.
 <img align="left" alt="Bash" width="30px" src="https://img.icons8.com/color/452/bash.png" />
 <img align="left" alt="Python" width="30px" src="https://img.icons8.com/fluency/452/python.png" />
 <img align="left" alt="Console" width="30px" src="https://img.icons8.com/color/452/console.png" />
+<img align="left" alt="Rust" width="30" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-rust-is-a-multi-paradigm-system-programming-language-logo-color-tal-revivo.png" />
 <br />
 
 #
