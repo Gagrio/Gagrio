@@ -4,23 +4,6 @@
 
 Infrastructure engineer with 14 years across Linux engineering, site reliability, DevOps and enterprise support at SUSE, Thales, Red Hat, Oracle and AT&T. I build and run cloud infrastructure with Terraform, Kubernetes and GitOps pipelines on AWS and GCP, and I troubleshoot production issues down to the OS and network layer.
 
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Flux](https://img.shields.io/badge/Flux-5468FF?style=flat-square&logo=flux&logoColor=white)
-![Rancher](https://img.shields.io/badge/Rancher-0075A8?style=flat-square&logo=rancher&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![SUSE](https://img.shields.io/badge/SUSE-0C322C?style=flat-square&logo=suse&logoColor=30BA78)
-![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-
 ### 🚀 Featured work
 
 - **[gitops-platform](https://github.com/Gagrio/gitops-platform)** — GitOps platform on GCP: Terraform, Ansible-bootstrapped k3s and Flux, with CloudNativePG Postgres HA, External Secrets and Workload Identity Federation, deployed and verified through GitHub Actions.
@@ -42,17 +25,52 @@ flowchart LR
 
 ### 🛠️ Tools I work with
 
-- **Cloud, IaC & virtualisation:** AWS, Google Cloud (GCP), Terraform, VMware
-- **Containers & orchestration:** Kubernetes, K3s/RKE2, Rancher, Helm, Docker, Podman, SUSE Edge (Metal3, Elemental, SUSE Linux Micro)
-- **GitOps & CI/CD:** Flux, GitLab CI, GitHub Actions, Jenkins, Travis CI
-- **Build & packaging:** RPM packaging, Open Build Service (OBS), container images
-- **Configuration management:** Ansible, SaltStack, Puppet, Chef
-- **Linux & Unix:** SUSE Linux Enterprise / openSUSE, Red Hat Enterprise Linux, Oracle Linux, Debian/Ubuntu, AIX, Solaris
-- **Identity & security:** Red Hat Identity Management (FreeIPA), Red Hat Directory Server / 389 Directory Server, Kerberos, SSSD, Samba, PAM, OS hardening
-- **Networking:** TCP/IP, DNS, DHCP, RADIUS, Cisco/HP network devices, load balancing (F5 BIG-IP, HAProxy, nginx), tcpdump/Wireshark
-- **Data services:** Oracle Database administration, PostgreSQL (CloudNativePG), Kafka
-- **Observability:** Prometheus, Grafana, ELK/EFK, Graylog, Nagios
-- **Scripting:** Bash, Python
+<table>
+  <tr>
+    <td><b>📦 Containers & orchestration</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" height="18" alt="Kubernetes"/> Kubernetes &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="18" alt="Docker"/> Docker &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/helm/helm-original.svg" height="18" alt="Helm"/> Helm &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rancher/rancher-original.svg" height="18" alt="Rancher"/> Rancher &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/k3s/k3s-original.svg" height="18" alt="K3s / RKE2"/> K3s / RKE2 &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/podman/podman-original.svg" height="18" alt="Podman"/> Podman &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/suse" height="18" alt="SUSE Edge (Metal3, Elemental, SUSE Linux Micro)"/> SUSE Edge (Metal3, Elemental, SUSE Linux Micro)</td>
+  </tr>
+  <tr>
+    <td><b>☁️ Cloud & IaC</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" height="18" alt="AWS"/> AWS &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" height="18" alt="Terraform"/> Terraform &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" height="18" alt="Google Cloud"/> Google Cloud</td>
+  </tr>
+  <tr>
+    <td><b>🔁 GitOps & CI/CD</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" height="18" alt="Git"/> Git &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" height="18" alt="GitHub Actions"/> GitHub Actions &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg" height="18" alt="GitLab CI"/> GitLab CI &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/flux" height="18" alt="Flux"/> Flux</td>
+  </tr>
+  <tr>
+    <td><b>🐧 Linux & Unix</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redhat/redhat-original.svg" height="18" alt="Red Hat Enterprise Linux"/> Red Hat Enterprise Linux &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-original.svg" height="18" alt="Ubuntu"/> Ubuntu &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/debian/debian-original.svg" height="18" alt="Debian"/> Debian &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/suse" height="18" alt="SUSE Linux Enterprise / openSUSE"/> SUSE Linux Enterprise / openSUSE &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" height="18" alt="Oracle Linux"/> Oracle Linux &nbsp;·&nbsp; Solaris &nbsp;·&nbsp; AIX</td>
+  </tr>
+  <tr>
+    <td><b>⚙️ Configuration management</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg" height="18" alt="Ansible"/> Ansible &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/chef" height="18" alt="Chef"/> Chef &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/saltproject" height="18" alt="SaltStack"/> SaltStack</td>
+  </tr>
+  <tr>
+    <td><b>📈 Observability</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" height="18" alt="Prometheus"/> Prometheus &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" height="18" alt="Grafana"/> Grafana &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/datadog/datadog-original.svg" height="18" alt="Datadog"/> Datadog &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg" height="18" alt="ELK / EFK"/> ELK / EFK</td>
+  </tr>
+  <tr>
+    <td><b>🌐 Networking</b></td>
+    <td>TCP/IP &nbsp;·&nbsp; DNS &nbsp;·&nbsp; load balancing: cloud load balancers, Kubernetes Services &amp; Ingress, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" height="18" alt="nginx"/> nginx, <img src="https://cdn.simpleicons.org/haproxy" height="18" alt="HAProxy"/> HAProxy, <img src="https://cdn.simpleicons.org/f5" height="18" alt="F5 BIG-IP"/> F5 BIG-IP &nbsp;·&nbsp; firewalls: iptables / nftables, firewalld, UFW, cloud firewall rules &nbsp;·&nbsp; DHCP &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/wireshark" height="18" alt="tcpdump / Wireshark"/> tcpdump / Wireshark &nbsp;·&nbsp; RADIUS</td>
+  </tr>
+  <tr>
+    <td><b>💻 Scripting</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" height="18" alt="Bash"/> Bash &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" height="18" alt="Python"/> Python</td>
+  </tr>
+  <tr>
+    <td><b>🗄️ Databases</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="18" alt="PostgreSQL (CloudNativePG)"/> PostgreSQL (CloudNativePG) &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" height="18" alt="Oracle Database"/> Oracle Database</td>
+  </tr>
+  <tr>
+    <td><b>🔐 Identity & security</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redhat/redhat-original.svg" height="18" alt="Red Hat Identity Management (FreeIPA)"/> Red Hat Identity Management (FreeIPA) &nbsp;·&nbsp; Kerberos &nbsp;·&nbsp; Samba &nbsp;·&nbsp; SSSD &nbsp;·&nbsp; Red Hat Directory Server / 389 DS &nbsp;·&nbsp; PAM &nbsp;·&nbsp; OS hardening</td>
+  </tr>
+  <tr>
+    <td><b>🏗️ Build & packaging</b></td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="18" alt="Container images"/> Container images &nbsp;·&nbsp; RPM packaging &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opensuse/opensuse-original.svg" height="18" alt="Open Build Service (OBS)"/> Open Build Service (OBS)</td>
+  </tr>
+</table>
 
 ### 📫 Contact
 
