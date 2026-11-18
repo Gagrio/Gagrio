@@ -52,7 +52,7 @@ flowchart LR
   </tr>
   <tr>
     <td><b>🌐 Networking</b></td>
-    <td>TCP/IP &nbsp;·&nbsp; DNS &nbsp;·&nbsp; load balancing: cloud load balancers, Kubernetes Services &amp; Ingress, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" height="18" alt="nginx"/> nginx, <img src="https://cdn.simpleicons.org/haproxy" height="18" alt="HAProxy"/> HAProxy, <img src="https://cdn.simpleicons.org/f5" height="18" alt="F5 BIG-IP"/> F5 BIG-IP &nbsp;·&nbsp; firewalls: iptables / nftables, firewalld, UFW, cloud firewall rules &nbsp;·&nbsp; DHCP &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/wireshark" height="18" alt="tcpdump / Wireshark"/> tcpdump / Wireshark &nbsp;·&nbsp; RADIUS</td>
+    <td>TCP/IP &nbsp;·&nbsp; DNS &nbsp;·&nbsp; DHCP &nbsp;·&nbsp; load balancing (<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" height="18" alt="nginx"/> nginx, Kubernetes Ingress, cloud load balancers) &nbsp;·&nbsp; Linux firewalling (netfilter) and cloud firewall rules &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/wireshark" height="18" alt="tcpdump / Wireshark"/> tcpdump / Wireshark &nbsp;·&nbsp; RADIUS</td>
   </tr>
   <tr>
     <td><b>💻 Scripting</b></td>
