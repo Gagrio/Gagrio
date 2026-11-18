@@ -15,6 +15,8 @@ Infrastructure engineer with 14 years across Linux engineering, site reliability
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![SUSE](https://img.shields.io/badge/SUSE-0C322C?style=flat-square&logo=suse&logoColor=30BA78)
+![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
@@ -40,12 +42,17 @@ flowchart LR
 
 ### 🛠️ Tools I work with
 
-- **Cloud & IaC:** AWS, GCP, Terraform
-- **Containers & GitOps:** Kubernetes, Helm, Flux, Docker, RKE2/K3s, Rancher
-- **CI/CD & packaging:** GitLab CI, GitHub Actions, Jenkins, Open Build Service
-- **Configuration management:** Ansible, SaltStack, Puppet
-- **Linux & networking:** SLES/openSUSE, RHEL, Debian/Ubuntu; TCP/IP, DNS, DHCP, load balancing
-- **Observability:** Prometheus, Grafana, ELK
+- **Cloud, IaC & virtualisation:** AWS, Google Cloud (GCP), Terraform, VMware
+- **Containers & orchestration:** Kubernetes, K3s/RKE2, Rancher, Helm, Docker, Podman, SUSE Edge (Metal3, Elemental, SUSE Linux Micro)
+- **GitOps & CI/CD:** Flux, GitLab CI, GitHub Actions, Jenkins, Travis CI
+- **Build & packaging:** RPM packaging, Open Build Service (OBS), container images
+- **Configuration management:** Ansible, SaltStack, Puppet, Chef
+- **Linux & Unix:** SUSE Linux Enterprise / openSUSE, Red Hat Enterprise Linux, Oracle Linux, Debian/Ubuntu, AIX, Solaris
+- **Identity & security:** Red Hat Identity Management (FreeIPA), Red Hat Directory Server / 389 Directory Server, Kerberos, SSSD, Samba, PAM, OS hardening
+- **Networking:** TCP/IP, DNS, DHCP, RADIUS, Cisco/HP network devices, load balancing (F5 BIG-IP, HAProxy, nginx), tcpdump/Wireshark
+- **Data services:** Oracle Database administration, PostgreSQL (CloudNativePG), Kafka
+- **Observability:** Prometheus, Grafana, ELK/EFK, Graylog, Nagios
+- **Scripting:** Bash, Python
 
 ### 📫 Contact
 
