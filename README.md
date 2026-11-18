@@ -1,75 +1,52 @@
-#### ⚡ George Agriogiannis
-**`DevOps/SRE`**
+## 👋 George Agriogiannis
 
----
+**Linux & Cloud Infrastructure Engineer · SRE · DevOps · Kubernetes** — Prague, Czechia
 
-Open source enthousiast, Cloud Native advocate.
-Coming from a Linux background, getting into the cloud.
+Infrastructure engineer with 14 years across Linux engineering, site reliability, DevOps and enterprise support at SUSE, Thales, Red Hat, Oracle and AT&T. I build and run cloud infrastructure with Terraform, Kubernetes and GitOps pipelines on AWS and GCP, and I troubleshoot production issues down to the OS and network layer.
 
-<p align="left">
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Flux](https://img.shields.io/badge/Flux-5468FF?style=flat-square&logo=flux&logoColor=white)
+![Rancher](https://img.shields.io/badge/Rancher-0075A8?style=flat-square&logo=rancher&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![SUSE](https://img.shields.io/badge/SUSE-0C322C?style=flat-square&logo=suse&logoColor=30BA78)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-<a href="https://github.com/Gagrio?tab=followers">
-<img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Gagrio?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-<a href="https://github.com/Gagrio?tab=repositories&sort=stargazers">
-<img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Gagrio?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+### 🚀 Featured work
 
-</p>
+- **[gitops-platform](https://github.com/Gagrio/gitops-platform)** — GitOps platform on GCP: Terraform, Ansible-bootstrapped k3s and Flux, with CloudNativePG Postgres HA, External Secrets and Workload Identity Federation, deployed and verified through GitHub Actions.
+- **[condash](https://github.com/Gagrio/condash)** — Rust CLI that spins up temporary Prometheus/Grafana monitoring for any container; released for Linux and macOS via Homebrew and openSUSE packages.
+- **[ketchup](https://github.com/Gagrio/ketchup)** — Rust tool that collects and archives Kubernetes cluster configuration for troubleshooting.
+- **[pack](https://github.com/Gagrio/pack)** and **[nessie](https://github.com/Gagrio/nessie)** — diagnostic tools for host path and log collection, contributed to the official [SUSE Edge support-tools](https://github.com/suse-edge/support-tools) repository.
 
-#
+#### How gitops-platform fits together
 
-:rocket: Tools you might come across in this profile: 
-
-<img align="left" alt="Terraform" width="30px" src="https://img.icons8.com/fluency/344/terraform.png" />
-<img align="left" alt="Kubernetes" width="30px" src="https://img.icons8.com/color/344/kubernetes.png" />
-<img align="left" alt="Docker" width="30px" src="https://img.icons8.com/color/452/docker.png" />
-<img align="left" alt="Git" width="30px" src="https://img.icons8.com/color/344/git.png" />
-<img align="left" alt="AWS" width="30px" src="https://img.icons8.com/color/344/amazon-web-services.png" />
-<img align="left" alt="GCP" width="30px" src="https://img.icons8.com/color/344/google-cloud.png" />
-<img align="left" alt="CI/CD" width="30px" src="https://img.icons8.com/color/344/travis-ci.png" />
-<img align="left" alt="Ruby" width="30px" src="https://img.icons8.com/fluency/452/ruby-gemstone.png" />
-<img align="left" alt="Go" width="30px" src="https://img.icons8.com/color/452/golang.png" />
-<img align="left" alt="Bash" width="30px" src="https://img.icons8.com/color/452/bash.png" />
-<img align="left" alt="Python" width="30px" src="https://img.icons8.com/fluency/452/python.png" />
-<img align="left" alt="Console" width="30px" src="https://img.icons8.com/color/452/console.png" />
-<img align="left" alt="Rust" width="30" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-rust-is-a-multi-paradigm-system-programming-language-logo-color-tal-revivo.png" />
-<br />
-
-#
-
-![Gagrio's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gagrio&show_icons=true&theme=radical)
-
----
-
-<details><summary>More!</summary>
-<p>
-
-##### About me:
-
-```ruby
-puts "Hello World!"
+```mermaid
+flowchart LR
+    A[GitHub Actions] -->|terraform apply| B[GCP: VPC, VMs, IAM]
+    A -->|ansible-playbook| C[k3s cluster]
+    B --> C
+    C --> D[Flux]
+    D -->|reconciles from Git| E[Postgres HA · monitoring · apps]
+    F[GCP Secret Manager] -->|External Secrets| E
 ```
-- Working in IT since 2012
-- Held many different positions, but mostly working with Linux
-- Decided to jump on the Cloud hype wagon and did not regret, even if the upskill is tremendus.
-- Currently found new passion in containers and orchestration
-- Everything should be automated!
-- Terraform is the way!
-- GitOps is the future today!
 
-</p>
-</details>
+### 🛠️ Tools I work with
 
-<!--
-**Gagrio/Gagrio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- **Cloud & IaC:** AWS, GCP, Terraform
+- **Containers & GitOps:** Kubernetes, Helm, Flux, Docker, RKE2/K3s, Rancher
+- **CI/CD & packaging:** GitLab CI, GitHub Actions, Jenkins, Open Build Service
+- **Configuration management:** Ansible, SaltStack, Puppet
+- **Linux & networking:** SLES/openSUSE, RHEL, Debian/Ubuntu; TCP/IP, DNS, DHCP, load balancing
+- **Observability:** Prometheus, Grafana, ELK
 
-Here are some ideas to get you started:
+### 📫 Contact
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[LinkedIn](https://www.linkedin.com/in/gagriogiannis/)
